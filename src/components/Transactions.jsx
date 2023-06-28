@@ -28,5 +28,5 @@ export const Transactions = ({ props }) => {
 } 
 
 Transactions.propTypes = { 
-    props: PropTypes.array,
+    props: PropTypes.array.isRequired,
 }

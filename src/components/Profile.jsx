@@ -40,5 +40,5 @@ export const Profile = ({ user }) => {
 }
 
 Profile.propTypes = { 
-  user: PropTypes.object, 
+  user: PropTypes.object.isRequired, 
 }
