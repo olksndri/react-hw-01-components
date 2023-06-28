@@ -1,0 +1,67 @@
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.profile {
+  width: 50vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 14px;
+  margin-bottom: 60px;
+  box-shadow: var(--card-shadow);
+  transition: box-shadow 250ms linear;
+}
+
+.profile:hover,
+.profile:focus {
+  box-shadow: var(--card-shadow-hover);
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2vh;
+  margin-bottom: 2vh;
+}
+
+.avatar {
+  width: 30vw;
+  border-radius: 50%;
+  background: var(--bg-color);
+}
+
+.name {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.tag {
+  composes: name;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.location {
+  composes: tag;
+}
+
+.stats {
+  display: flex;
+  column-gap: 1.7vw;
+}
+
+.quantity {
+  font-size: 18px;
+}
+
+.label {
+  composes: quantity;
+  margin-right: 8px;
+}

@@ -1,0 +1,20 @@
+.transaction-history {
+  width: 400px;
+  border: 5px solid rgb(218, 229, 239);
+  margin: 0 auto;
+}
+
+.transaction-history tr,
+.transaction-history td {
+  transition: background-color 250ms linear;
+  outline: 2px solid rgb(218, 229, 239);
+}
+
+tr:hover,
+td:hover {
+  background-color: rgba(255, 186, 154, 0.83);
+}
+
+.table-headers {
+  text-align: left;
+}
