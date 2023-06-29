@@ -13,6 +13,7 @@
 tr:hover,
 td:hover {
   background-color: rgba(255, 186, 154, 0.83);
+  cursor: pointer;
 }
 
 .table-headers {

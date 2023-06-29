@@ -12,6 +12,7 @@
 .statistics:hover,
 .statistics:focus {
   box-shadow: var(--card-shadow-hover);
+  cursor: pointer;
 }
 
 .title {

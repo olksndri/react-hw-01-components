@@ -21,6 +21,7 @@ body {
 .profile:hover,
 .profile:focus {
   box-shadow: var(--card-shadow-hover);
+  cursor: pointer;
 }
 
 .description {

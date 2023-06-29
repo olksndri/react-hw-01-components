@@ -24,6 +24,7 @@
 .item:hover,
 .item:focus {
   box-shadow: var(--card-shadow-hover);
+  cursor: pointer;
 }
 
 .status {
